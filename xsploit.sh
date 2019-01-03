@@ -222,7 +222,7 @@ pkg install figlet -y
 figlet Installing
 pkg install nmap -y
 read -p "Masukan Hostname website nya : " l
-nmap -sV --script=http-sql-brute.nse $l -p 80
+nmap -sV --script=http-sql-injection.nse $l -p 80
 echo $green"Scan website selesai"
 fi
 
