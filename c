@@ -15,7 +15,6 @@ def main():
 		pwd = raw_input("password : ")
 
 		if pwd == password:
-			print "\n\033[1;34mSelamat datang di F - Tools", 
 			sys.exit()
 
 		else:
